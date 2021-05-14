@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`𝙷𝙴𝚈,my name is Haguromo Otsusuki`
+𝙷𝙴𝚈,my name is Haguromo Otsusuki/n
 𝙸'𝙰𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴𝙳 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙸𝙽𝙶 𝙱𝙾𝚃! 𝙲𝙻𝙸𝙲𝙺` *📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* `𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙰𝙽𝙳 𝙼𝚈 𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝚂 [.](https://telegra.ph/file/36c57221ea00d88fbcd89.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD EMCEE TO YOUR GROUP ➕️", url="t.me/rikudo_senin_bot?startgroup=true"),
+            text="➕️ ADD HAGUROMO TO YOUR GROUP ➕️", url="t.me/rikudo_senin_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
