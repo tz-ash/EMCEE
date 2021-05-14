@@ -94,8 +94,7 @@ buttons = [
             text="👥SUPPORT👥", url="https://t.me/Emcee_Support"),
     ],
     [  
-        InlineKeyboardButton(text="❄️EMCEE WEB❄️", url="https://emcee.art.blog/"
-    ),
+        InlineKeyboardButton(text="❄️EMCEE WEB❄️", url="https://emcee.art.blog"),
     ], 
     
 ]
