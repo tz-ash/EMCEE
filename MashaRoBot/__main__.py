@@ -91,10 +91,10 @@ buttons = [
         InlineKeyboardButton(
             text="✨Owner✨", url="http://t.me/satyanandatripathi"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/Emcee_Support"),
+            text="👥SUPPORT👥", url="https://t.me/domin8orsupport"),
     ],
     [  
-        InlineKeyboardButton(text="❄️EMCEE WEB❄️", url="https://emcee.art.blog"),
+        InlineKeyboardButton(text="Thanks to", url="https://t.me/emcee_support"),
     ], 
     
 ]
@@ -362,8 +362,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://t.me/Emcee_Support).
-                 If you have any question about Emcee, let us know at @Emceesupport.""",
+                 Here is the [💾Repository](https://www.github.com/satyanandatripathi/emcee).
+                 If you have any question about Rikudo senin, let us know at @satyanandatripathi.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -685,7 +685,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Emcee is back to serve you.✨")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Me the sage of the six paths is back to serve you.✨")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
