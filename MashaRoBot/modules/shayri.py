@@ -41,7 +41,7 @@ async def _(event):
     if h==16:
         await event.edit(f"जब तुम नहीं समझे,\nतब मैंने खुद को कितना समझाया\n\nये तुम कभी नहीं समझोगे\n\n\n✍️[{DEFAULTUSER}](tg://user?id={kraken})")
     if h==17: you
-        await event.edit(f"Kisi Ne Yun Hi Pooch Liya Humse\nKi Dard Ki Keemat Kya Hai,\nHumne Hanste Huye Kaha\nPata Nahin\n\n**Kuch Apne Muft Me De Gaye**\n\n\n✍️ @emcee_bot")
+        await event.edit(f"Kisi Ne Yun Hi Pooch Liya Humse \nKi Dard Ki Keemat Kya Hai,\nHumne Hanste Huye Kahav\nPata Nahin\n\n**Kuch Apne Muft Me De Gaye** \n\n✍️ @emcee_bot")
     if h==18:
         await event.edit(f"Rekhao ka khel he sara\nKya kare taqdeer ka mara\n\nJis qadar uski qadar ki..\n**Uss qadar beqadar huve ham**\n\n\nBy @emcee_bot")
     if h==19:
