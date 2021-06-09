@@ -89,9 +89,9 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✨Owner✨", url="http://t.me/satyanandatripathi"),
+            text="✨Owner✨", url="http://t.me/kid_of_telegram"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/domin8orsupport"),
+            text="👥SUPPORT👥", url="https://t.me/tz_me_kid"),
     ],
     [  
         InlineKeyboardButton(text="Thanks to", url="https://t.me/emcee_support"),
